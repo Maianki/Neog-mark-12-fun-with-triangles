@@ -5,22 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun with triangles.</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-        
-        <h1>Is Triangle</h1>
-        <label for="angel1">Enter first angel</label>
+
+    <nav class="navigation">
+        <ul>
+            <li class="list-item-inline link-active">
+                <a class="link link-active" href="index.html">Is Triangle?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="quiz.html">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="hypotenuse.html">Hypotenuse</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="triangleArea.html">Area of Triangle</a>
+            </li>
+        </ul>
+    </nav>
+    <div class = "container"> 
+        <h1>Is Triangle?</h1>
+        <label for="angel1">Enter first angle</label>
         <input class="input-angle" type="number">
-        <label for="angle2">Enter second angel</label>
+        <label for="angle2">Enter second angle</label>
         <input class="input-angle" type="number">
-        <label for="angel3">Enter third angel</label>
+        <label for="angel3">Enter third angle</label>
         <input class="input-angle" type="number">
 
         <button class="btn-is-triangle">Is Triangle?</button>
 
         <div id="display-output"></div>
-        <script src="main.js"></script>
     </div>
+
+    <footer>
+        
+        <ul>
+            <li class="socials"><a href="https://github.com/Maianki"> <img src="/images/github.svg"></a></li>
+            <li class="socials"><a href="https://www.linkedin.com/in/ankit-kumain-4124a21b3/"><img src="/images/linkedin.svg"></a></li>
+            <li class="socials"><a href="https://twitter.com/Ankit_k10"><img src="/images/twitter.svg"></a></li>
+        </ul>
+    </footer>
+   
+    <script src="main.js"></script>
 </body>
 </html>
