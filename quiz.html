@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangles Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navigation">
+        <ul>
+            <li class="list-item-inline">
+                <a class="link" href="index.html">Is Triangle?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link  link-active" href="quiz.html">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="hypotenuse.html">Hypotenuse</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="triangleArea.html">Area of Triangle</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>Quiz on triangles</h1>
+    <h3>For each correct answer you will get 1 point</h3>
+    <form class="quiz-form">
+        <div>
+            <p>How many right angles a triangle can have?</p>
+            <label>
+                <input type="radio" name="question1" value="2"> 2
+            </label>
+            <label>
+                <input type="radio" name="question1" value="1"> 1
+            </label>
+            <label>
+                <input type="radio" name="question1" value="5"> 5
+            </label>
+        </div>
+        <div>
+            <p>Which triangle has all its angle equals to 60 degree?</p>
+            <label>
+                <input type="radio" name="question2" value="Isosceles"> Isosceles
+            </label>
+            <label>
+                <input type="radio" name="question2" value="Scalene"> Scalene
+            </label>
+            <label>
+                <input type="radio" name="question2" value="Equilateral"> Equilateral
+            </label>
+        </div>
+
+        <div>
+            <p>What is the hypotenuse of the right angled triangle whose other two sides are 24cm and 7cm?</p>
+            <label>
+                <input type="radio" name="question3" value="25"> 25cm
+            </label>
+            <label>
+                <input type="radio" name="question3" value="9"> 9cm
+            </label>
+            <label>
+                <input type="radio" name="question3" value="15"> 15cm
+            </label>
+        </div>
+
+        <div>
+            <p>What is the third angle of triangle whose other two angles are 90 deg and 30 deg?</p>
+            <label>
+                <input type="radio" name="question4" value="60"> 60 deg
+            </label>
+            <label>
+                <input type="radio" name="question4" value="70"> 70 deg
+            </label>
+            <label>
+                <input type="radio" name="question4" value="80"> 80 deg
+            </label>
+        </div>
+
+        <div>
+            <p>In a right angled triangle, what would be the measure of the other two angles, if they are equal.</p>
+            <label>
+                <input type="radio" name="question5" value="80"> 80 deg
+            </label>
+            <label>
+                <input type="radio" name="question5" value="30"> 30 deg
+            </label>
+            <label>
+                <input type="radio" name="question5" value="45"> 45 deg
+            </label>
+        </div>
+
+        <div>
+            <p>If one angle of a triangle is equal to the sum of other two angles, then the triangle is</p>
+            <label>
+                <input type="radio" name="question6" value="equilateral triangle"> Equilateral triangle
+            </label>
+            <label>
+                <input type="radio" name="question6" value="right triangle"> Right angled triangle
+            </label>
+            <label>
+                <input type="radio" name="question6" value="isosceles triangle"> Isosceles triangle
+            </label>
+        </div>
+
+        <div>
+            <p>Area of triangle with base = 10cm and height = 5cm is</p>
+            <label>
+                <input type="radio" name="question7" value="50"> 50 cm sq.
+            </label>
+            <label>
+                <input type="radio" name="question7" value="25"> 25 cm sq.
+            </label>
+            <label>
+                <input type="radio" name="question7" value="20"> 20 cm sq.
+            </label>
+        </div>
+
+        <div>
+            <p> A triangle has two sides measuring 10 meters and one side measuring 6 meters. What type of triangle is this?</p>
+            <label>
+                <input type="radio" name="question8" value="equilateral"> Equilateral triangle
+            </label>
+            <label>
+                <input type="radio" name="question8" value="scalene"> Scalene triangle
+            </label>
+            <label>
+                <input type="radio" name="question8" value="isosceles"> Isosceles triangle
+            </label>
+        </div>
+
+        
+        <div>
+            <p>Which triangle has three unequal sides?</p>
+            <label>
+                <input type="radio" name="question9" value="scalene"> Scalene triangle
+            </label>
+            <label>
+                <input type="radio" name="question9" value="equilateral"> Equilateral triangle
+            </label>
+            <label>
+                <input type="radio" name="question9" value="isosceles"> Isosceles triangle
+            </label>
+        </div>
+
+        <div>
+            <p>Which triangle has all three angles less than 90°?</p>
+            <label>
+                <input type="radio" name="question10" value="acute"> Acute triangle
+            </label>
+            <label>
+                <input type="radio" name="question10" value="right"> Right triangle
+            </label>
+            <label>
+                <input type="radio" name="question10" value="obtuse"> obtuse triangle
+            </label>
+        </div>
+    </form>
+
+    <button class="btn-submit">Submit</button>
+    <div id="display-output"></div>
+    <footer>
+        
+        <ul>
+            <li class="socials"><a href="https://github.com/Maianki"> <img src="/images/github.svg"></a></li>
+            <li class="socials"><a href="https://www.linkedin.com/in/ankit-kumain-4124a21b3/"><img src="/images/linkedin.svg"></a></li>
+            <li class="socials"><a href="https://twitter.com/Ankit_k10"><img src="/images/twitter.svg"></a></li>
+        </ul>
+    </footer>
+   
+    <script src="scripts/quiz.js"></script>
+</body>
+</html>

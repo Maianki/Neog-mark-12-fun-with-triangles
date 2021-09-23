@@ -43,7 +43,7 @@ label{
     border-radius: .3rem;
 }
 
-.btn-is-triangle{
+.btn-is-triangle,.btn-submit{
     display: block;
     margin: 1.5rem auto;
     width: 150px;
