@@ -1,4 +1,3 @@
-
 const btnSubmit = document.querySelector(".btn-submit")
 const quizForm = document.querySelector(".quiz-form")
 const displayOutput = document.querySelector("#display-output")

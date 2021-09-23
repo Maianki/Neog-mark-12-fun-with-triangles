@@ -34,7 +34,7 @@ label{
     display: block;
 }
 
-.input-angle{
+.input-angle,.input-base,.input-height{
     font-family: 'Asul', sans-serif;
     display: block;
     margin: .5rem auto;
