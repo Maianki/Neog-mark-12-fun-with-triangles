@@ -5,5 +5,5 @@ A website where you can find everything about triangles. From quizzes, to findin
 ## Built on:
 HTML, CSS and Vanila Js
 
-Project's live link:
+## Project's live link:
 https://play-with-triangle.netlify.app
