@@ -15,7 +15,7 @@ function validateInput(){
 
 function calculateHypotenuse(){ 
     var hypotenuse = Math.sqrt(Number(base.value)**2  + Number(height.value)**2 )
-    displayOutput.innerText = "The length of hypotenuse is "+hypotenuse
+    displayOutput.innerText = "The length of hypotenuse is "+hypotenuse.toFixed(2)
 }
 
 function submitEventListener(){
